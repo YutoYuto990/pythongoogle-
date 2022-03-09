@@ -1,7 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import quote,unquote
-def searc(kwargs,num):
+def search(kwargs,num):
     search_word = kwargs
 
 # how many content
